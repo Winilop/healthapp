@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    // 必须修改这里：从 FAIL_ON_PROJECT_REPOS 改为 PREFER_SETTINGS
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        // 确保这行在这里
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "Healthapp"
+include ':app'
