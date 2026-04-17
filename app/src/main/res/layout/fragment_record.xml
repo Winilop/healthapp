@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btn_show_diet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="饮食记录"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#FF7043"/>
+
+        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#EEEEEE"/>
+
+        <Button
+            android:id="@+id/btn_show_sport"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="运动记录"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#2196F3"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/record_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

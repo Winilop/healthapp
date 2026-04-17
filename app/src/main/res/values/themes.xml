@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HealthTracker"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
+
+    <style name="Theme.Healthapp" parent="Base.Theme.Healthapp" />
+</resources>

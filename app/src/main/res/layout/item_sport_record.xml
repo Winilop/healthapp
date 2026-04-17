@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="1dp">
+
+    <TextView
+        android:id="@+id/tv_item_sport_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2023-10-27"
+        android:textSize="14sp"
+        android:textColor="#999999"/>
+
+    <TextView
+        android:id="@+id/tv_item_sport_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8000 步"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>
